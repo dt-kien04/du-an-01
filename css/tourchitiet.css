@@ -1,0 +1,165 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+} */
+
+.product-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Cột hình ảnh */
+.col-image {
+    flex: 2;
+    min-width: 300px;
+}
+
+.image-bao-boc {
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.image-bao-boc img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* Cột thông tin */
+.col-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.form-tu-van h3 {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dashed #eee;
+    font-size: 14px;
+}
+
+.info-row .label {
+    color: #666;
+}
+
+.info-row .value {
+    font-weight: bold;
+    color: #333;
+}
+
+.price-tag {
+    font-size: 28px;
+    color: #d12027;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.price-tag span {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.btn-dat-tour {
+    display: block;
+    background: #f15a24;
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+.btn-locked{
+    background: #666 !important;
+}
+
+.btn-dat-tour:hover {
+    background: #d44d1c;
+}
+
+/* Phần gọi lại */
+.callback-section {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 45px;
+    background: #fafafa;
+    border-radius: 5px;
+}
+
+.promo-text {
+    color: #d12027;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-callback {
+    padding-top: 20px;
+}
+
+.form-callback input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-callback button {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.form-callback button:hover {
+    background: #333;
+}
+
+.login-require-msg {
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    font-size: 0.9em;
+    color: #d9534f;
+}
+
+/* Responsive cho điện thoại */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,53 @@
+.conten {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.nd-gioithieu {
+    margin-top: 50px;
+}
+
+.top-tit {
+    color: blue;
+    padding-bottom: 10px;
+}
+
+.nd-tieusu {
+    line-height: 30px;
+}
+
+.nd-tieusu h3 {
+    color: red;
+    padding-bottom: 5px;
+}
+
+.nd-tieusu strong {
+    font-size: 18px;
+    color: red;
+    display: block;
+    padding: 5px 0px;
+}
+
+.nd-tieusu p {
+    padding-left: 30px;
+}
+
+.giaithuong {
+    line-height: 30px;
+    display: inline-block;
+}
+
+.giaithuong h3 {
+    color: red;
+    padding: 5px 0px;
+}
+
+.giaithuong p {
+    padding-left: 30px;
+}
+
+.giaithuong p img {
+    padding-top: 10px;
+    width: 650px;
+    height: 120px;
+}

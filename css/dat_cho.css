@@ -1,0 +1,51 @@
+.booking-container {
+    max-width: 1200px;
+    margin: 60px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.tt {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.dien {
+    border: 1px solid;
+    border-radius: 8px;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.dien1 {
+    color: red;
+    font-size: 14px;
+    font-weight: 900;
+    background: #98959553;
+}
+
+.mau_khung {
+    border-radius: 8px;
+    background: #f15a24;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.mau_khung:hover {
+    background: #d44d1c;
+}

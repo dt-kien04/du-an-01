@@ -1,0 +1,149 @@
+.product-container {
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.col-image {
+    flex: 3;
+    max-width: 60%;
+    min-width: 300px;
+}
+
+.text-lienhe h1 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 24px;
+}
+
+.text-diachi {
+    line-height: 1.75rem;
+    font-size: .875rem;
+    font-weight: 400;
+}
+
+.dam {
+    color: black;
+    font-weight: bold;
+}
+
+.nhat {
+    font-weight: normal;
+}
+
+.image-bao-boc {
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.image-bao-boc img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.col-thongtin {
+    flex: 2;
+    min-width: 300px;
+    height: fit-content;
+}
+
+.form-tu-van h3 {
+    display: block;
+    /* text-align: center; */
+    padding-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.21;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.thong_bao {
+    color: #28a745;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.input-field {
+    display: grid;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.input-field label span {
+    color: red;
+}
+
+.input-field input {
+    border: 1px solid;
+    border-radius: 10px;
+    height: 40px;
+    padding-left: .75em;
+    margin-top: 5px;
+}
+
+.input-field textarea {
+    font-family: "Stack Sans Text", sans-serif;
+    border-radius: 10px;
+    border-width: 1px;
+    padding-left: .75em;
+    padding-top: .375rem;
+    margin-top: 5px;
+    resize: none;
+}
+
+.gui {
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn-gui {
+    width: 50%;
+    background-color: #f15a24;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.btn-gui:hover {
+    background: #d44d1c;
+}
+
+/* Responsive cho điện thoại */
+@media (max-width: 992px) {
+    .col-image {
+        max-width: 100%;
+        flex: 100%;
+    }
+
+    .col-thongtin {
+        flex: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-lienhe h1 {
+        font-size: 20px;
+    }
+
+    .form-tu-van h3 {
+        font-size: 16px;
+    }
+}

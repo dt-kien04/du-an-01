@@ -1,0 +1,27 @@
+.admin-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.admin-form input,
+.admin-form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+.btn-add {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.khung_sua_tour_tien {
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Stack Sans Text", sans-serif;
+    letter-spacing: 1px;
+}
+
+.admin-layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    color: #ff4a52;
+    font-size: 22px;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.sidebar ul li {
+    padding: 12px 15px;
+    border-bottom: 1px solid #34495e;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar ul li:hover {
+    background: #34495e;
+}
+
+.sidebar ul li.active {
+    background: #ff4a52;
+    border-radius: 4px;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    padding: 30px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn-add {
+    background: #27ae60;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* Table Style */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #eee;
+}
+
+.img-admin {
+    width: 80px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.btn-edit {
+    color: #2980b9;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.btn-delete {
+    color: #c0392b;
+    text-decoration: none;
+}
+
+.trang_thai_xu_ly-xac_nhan {
+    color: green;
+}
+
+.trang_thai_xu_ly-huy {
+    color: red;
+}
+
+.trang_thai_xu_ly-dang_xu_ly {
+    color: orange;
+}
+
+.btn_dieuhuong a{
+    text-decoration: none;
+    margin-right: 10px;
+}

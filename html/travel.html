@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Travel</title>
+    <link rel="stylesheet" href="/css/travel.css">
+    <!-- <link rel="shortcut icon" href="/css/photo/logo.png" type="image/x-icon"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=reviews">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav__header">
+                <div class="nav__logo">
+                    <a href="#">
+                        <img src="/photo/logo.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+            <ul class="menu">
+                <li class="bar"><a href="/html/travel.html">Trang chủ</a></li>
+                <li class="bar"><a href="/html/tour.html">Tour</a></li>
+                <li class="bar"><a href="/html/gioithieu.html">Giới thiệu</a></li>
+                <li class="bar"><a href="/html/lienhe.html">Liên hệ</a></li>
+                <li>
+                    <button class="btn">Đăng Nhập
+                        <span><i class="fa fa-long-arrow-right"></i></span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="main">
+        <div class="content">
+            <div class="text-main">
+                <strong>Khám phá Việt Nam</strong>
+                <h1>Hãy khám phá và tận hưởng chuyến đi của bạn</h1>
+                <p>Khám phá những điểm đến ngoạn mục và tạo nên những kỉ niệm khó quên cùng Travel. Từ phong cảnh tuyệt
+                    đẹp đến những thành phố sôi động, chuyến phiêu lưu tiếp theo của bạn sẽ thật sự bùng nổ. Hãy để
+                    chúng tôi biến những chuyến đi ước mơ của bạn thành hiện thực</p>
+                <a href="#">Đặt trực tuyến</a>
+            </div>
+            <div class="img-main">
+                <img src="/photo/img1.jpg" alt="img">
+            </div>
+        </div>
+    </section>
+    <section id="search">
+        <div class="tim-tour">
+            <form action="">
+                <div class="tim-box">
+                    <div class="s-b-icon">
+                        <i class="ri-map-pin-line"></i>
+                    </div>
+                    <div class="s-b-input">
+                        <span>Địa điểm <i class="ri-arrow-down-s-line"></i></span>
+                        <input type="text" name="diadiem" placeholder="Hà Nội, Việt Nam" required />
+                    </div>
+                </div>
+                <div class="tim-box">
+                    <div class="s-b-icon">
+                        <i class="ri-calendar-2-line"></i>
+                    </div>
+                    <div class="s-b-input">
+                        <span>Lịch <i class="ri-arrow-down-s-line"></i></span>
+                        <input type="date" name="lich" min="2025-01-01" required />
+                    </div>
+                </div>
+                <div class="tim-box">
+                    <div class="s-b-icon">
+                        <i class="ri-team-line"></i>
+                    </div>
+                    <div class="s-b-input">
+                        <span>Thành viên <i class="ri-arrow-down-s-line"></i></i></span>
+                        <input type="number" name="solg" placeholder="3 người" min="3" required />
+                    </div>
+                </div>
+                <div class="lup">
+                    <button><i class="ri-search-line"></i></button>
+                </div>
+            </form>
+            <div>
+    </section>
+    <section id="trending" class="trending">
+        <div class="content-trending">
+            <div class="text-trending">
+                <h2>Nổi bật 2025</h2>
+                <p>Những trải nghiệm ấn tượng mà bạn không thể bỏ lỡ trong chuyến đi khám phá lần này!</p>
+            </div>
+        </div>
+        <div class="trending-container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="trending-box">
+                            <div class="t-img">
+                                <img src="/photo/rungxanh.jpg" alt="travel">
+                            </div>
+                            <div class="t-text">
+                                <a href="#">Rừng xanh</a>
+                                <span>2 Địa điểm | 3 Hoạt động</span>
+                            </div>
+                            <div class="t-book">
+                                <span>2,500,000 VNĐ</span>
+                                <a href="#">Đặt ngay</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="trending-box">
+                            <div class="t-img">
+                                <img src="/photo/daongoc.jpg" alt="travel">
+                            </div>
+                            <div class="t-text">
+                                <a href="#">Đảo ngọc</a>
+                                <span>3 Địa điểm | 3 Hoạt động</span>
+                            </div>
+                            <div class="t-book">
+                                <span>10,000,000 VNĐ</span>
+                                <a href="#">Đặt ngay</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="trending-box">
+                            <div class="t-img">
+                                <img src="/photo/bienbac.jpg" alt="travel">
+                            </div>
+                            <div class="t-text">
+                                <a href="#">Biển bạc</a>
+                                <span>1 Địa điểm | 2 Hoạt động</span>
+                            </div>
+                            <div class="t-book">
+                                <span>3,500,000 VNĐ</span>
+                                <a href="#">Đặt ngay</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="trending-box">
+                            <div class="t-img">
+                                <img src="/photo/phoco.jpeg" alt="travel">
+                            </div>
+                            <div class="t-text">
+                                <a href="#">Phố cổ</a>
+                                <span>2 Địa điểm | 3 Hoạt động</span>
+                            </div>
+                            <div class="t-book">
+                                <span>9,500,000 VNĐ</span>
+                                <a href="#">Đặt ngay</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="diem-den">
+
+        <div class="diem-den-heading">
+            <h2>Điểm đến hàng đầu</h2>
+            <p>Những lý do tuyệt vời khiến Việt Nam trở thành điểm đến của bạn!</p>
+        </div>
+
+        <div class="diem-den-grid">
+
+            <div class="diem-den-box d-b-1">
+                <img alt="Diemden" src="/photo/ha-noi-1.jpg" />
+
+                <div class="d-b-text-container">
+                    <span class="ration">3.5</span>
+                    <div class="d-b-text">
+                        <strong>Hà Nội</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="diem-den-box d-b-2">
+                <img alt="Diemden" src="/photo/ha-giang.webp" />
+
+                <div class="d-b-text-container">
+                    <span class="ration">3.6</span>
+                    <div class="d-b-text">
+                        <strong>Hà Giang</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="diem-den-box d-b-3">
+                <img alt="Diemden" src="/photo/hoi-an.jpg" />
+
+                <div class="d-b-text-container">
+                    <span class="ration">3.7</span>
+                    <div class="d-b-text">
+                        <strong>Hội An</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="diem-den-box d-b-4">
+                <img alt="Diemden" src="/photo/TP-HCM.jpg" />
+
+                <div class="d-b-text-container">
+                    <span class="ration">3.8</span>
+                    <div class="d-b-text">
+                        <strong>Sài Gòn</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="diem-den-box d-b-5">
+                <img alt="Diemden" src="/photo/nha-trang.jpg" />
+
+                <div class="d-b-text-container">
+                    <span class="ration">3.9</span>
+                    <div class="d-b-text">
+                        <strong>Nha Trang</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="danh-gia">
+
+        <div class="danh-gia-img">
+            <img alt="Review" src="/photo/review.png" />
+        </div>
+
+        <div class="danh-gia-slider">
+            <div class="review__content">
+                <h3>Đánh giá <span class="material-symbols-outlined">reviews</span></h3>
+                <h2>Khách hàng quý giá nói gì về chúng tôi</h2>
+            </div>
+
+            <div class="swiper mySwipertest">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="khach-box">
+                            <div class="khach-box-text">
+                                <i class="ri-double-quotes-l"></i>
+                                <p>Thiên nhiên Việt Nam thật hùng vĩ, một nơi tuyệt vời dành cho các bạn muốn khám phá.
+                                </p>
+                                <strong>Maria</strong>
+                            </div>
+
+                            <div class="khach-box-img">
+                                <img alt="Khach" src="/photo/view1.jpeg">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="khach-box">
+                            <div class="khach-box-text">
+                                <i class="ri-double-quotes-l"></i>
+                                <p>Web Travel đã giúp tôi có một chuyến đi thật sự đáng nhớ với những kỉ niệm đẹp.</p>
+                                <strong>Toyoshi</strong>
+                            </div>
+
+                            <div class="khach-box-img">
+                                <img alt="Khach" src="/photo/view2.jpg">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="khach-box">
+                            <div class="khach-box-text">
+                                <i class="ri-double-quotes-l"></i>
+                                <p>Đừng chần chừ mà không đặt ngay Web Travel để bạn tận hưởng kỳ nghỉ du lịch tuyệt
+                                    vời.</p>
+                                <strong>Nam Trần</strong>
+                            </div>
+
+                            <div class="khach-box-img">
+                                <img alt="Khach" src="/photo/view3.jpeg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dang-ky">
+        <strong>Đăng ký với chúng tôi</strong>
+        <p>Cập nhật tin tức, thông tin mới nhất và các nội dung khác mỗi tuần.</p>
+        <form>
+            <input type="email" name="subscribe" placeholder="Nhập địa chỉ email của bạn" required />
+            <button><i class="fa fa-paper-plane"></i></button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-box">
+                <strong>
+                    <a href="#">
+                        <img src="/photo/logo.png" alt="logo">
+                    </a>
+                </strong>
+                <p>Hãy bấm theo dõi các trang mạng xã hội của chúng tôi để cập nhật các tin tức nổi bật mới nhất.</p>
+                <div class="footer-lien-ket-link">
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-box">
+                <strong>Liên Kết</strong>
+                <ul>
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="/html/tour.html">Tour</a></li>
+                    <li><a href="/html/gioithieu.html">Giới thiệu</a></li>
+                    <li><a href="#">Nổi bật</a></li>
+                    <li><a href="#">Đặt trực tuyến</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-box">
+                <strong>Liên Hệ</strong>
+                <span><i class="fa fa-map-marker-alt"></i>Hà Nội, Việt Nam</span>
+                <span><i class="fa fa-envelope"></i><a href="#">travel@gmail.com</a></span>
+                <span><i class="fa fa-phone-square-alt"></i><a href="#">0123456789</a></span>
+            </div>
+
+        </div>
+    </footer>
+    <span class="copyright">Web Travel 2025 - All Copyright Reserved</span>
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            loop: true,
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 4,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+            },
+        });
+        var swiper = new Swiper(".mySwipertest", {
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            loop: true,
+        });
+    </script>
+</body>
+
+</html>

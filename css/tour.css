@@ -1,0 +1,136 @@
+.book-tour {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 26px;
+    margin: 30px 0px;
+    color: red;
+    text-transform: capitalize;
+    animation: pulse-blink 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse-blink {
+    0% {
+        transform: scale(1);
+        /* Kích thước bình thường */
+        opacity: 1;
+        /* Hiện rõ */
+    }
+
+    50% {
+        transform: scale(1.1);
+        /* Phóng to 10% */
+    }
+
+    100% {
+        transform: scale(1);
+        /* Quay lại bình thường */
+        opacity: 1;
+        /* Hiện rõ lại */
+    }
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #e67e22;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    z-index: 10;
+}
+
+.product-image img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    display: block;
+}
+
+.product-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-title {
+    font-size: 18px;
+    color: #1c1c1c;
+    margin-bottom: 10px;
+    height: 44px;
+    overflow: hidden;
+}
+
+.meta {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.meta i {
+    color: #3498db;
+    margin-right: 5px;
+}
+
+.price-section {
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    color: #d32f2f;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.old-price {
+    display: block;
+    text-decoration: line-through;
+    color: #999;
+    font-size: 0.9em;
+}
+
+.view-detail {
+    text-decoration: none;
+    color: #3498db;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.view-detail:hover {
+    color: #2980b9;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
